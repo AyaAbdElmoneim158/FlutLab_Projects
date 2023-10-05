@@ -54,6 +54,11 @@ flutter_icons:
 flutter:
   uses-material-design: true
   assets:
-    - assets/.
-    - assets/instagram.png
+    - assets/
+  
+  fonts:
+    - family: Cairo
+      fonts:
+        - asset: assets/Cairo-Regular.ttf
+
  
