@@ -25,40 +25,30 @@ class _GameBodyState extends State<GameBody> {
     return Center(
       child: Column(
         children: [
-          Text(
-            (leftImageNum != rightImageNum)
-                ? "Try Again...!"
-                : "Congration...!",
-            style: Theme.of(context).textTheme.bodyMedium,
-          ),
+          buildText(context),
           const SizedBox(height: 24),
           Row(
             children: [
-              ImageItem(imageNum: leftImageNum),
-              ImageItem(imageNum: rightImageNum),
+              buildImage(imageNum: leftImageNum),
+              buildImage(imageNum: rightImageNum),
             ],
           )
         ],
       ),
     );
   }
-}
 
-class ImageItem extends StatelessWidget {
-  const ImageItem({
-    super.key,
-    required this.imageNum,
-  });
-
-  final int imageNum;
-
-  @override
-  Widget build(BuildContext context) {
-    return Expanded(
-      child: InkWell(
-        onTap: () => changeImageNum(),
-        child: Image.asset('assets/gameImages/image-$imageNum.png'),
-      ),
+  Text buildText(BuildContext context) {
+    return Text(
+      (leftImageNum != rightImageNum) ? "Try Again...!" : "Congration...!",
+      style: Theme.of(context).textTheme.bodyMedium,
     );
   }
+
+  Expanded buildImage({required imageNum}) => Expanded(
+        child: InkWell(
+          onTap: () => changeImageNum(),
+          child: Image.asset('assets/gameImages/image-$imageNum.png'),
+        ),
+      );
 }
