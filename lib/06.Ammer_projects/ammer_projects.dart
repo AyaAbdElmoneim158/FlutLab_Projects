@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_projects/06.Ammer_projects/App.2/app_2.dart';
+import 'package:flutter_projects/06.Ammer_projects/03.game_app/game_app.dart';
 
 class AmmerProjects extends StatelessWidget {
   const AmmerProjects({super.key});
@@ -8,7 +8,7 @@ class AmmerProjects extends StatelessWidget {
     return const MaterialApp(
       title: 'Ammer Projects',
       debugShowCheckedModeBanner: false,
-      home: App2(),
+      home: GameApp(),
     );
   }
 } // repository
