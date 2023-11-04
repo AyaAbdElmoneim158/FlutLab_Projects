@@ -1,8 +1,16 @@
 # Ammar_projects_2023 (5/10/2023)
 
-  - Add gameApp (15/10/2023)
+  - GameApp (15/10/2023)
     - Add Assets
     - Add UI
     - Add Logic
-  - Add MusicApp (15/10/2023)
+
+  - MusicApp (15/10/2023)
     - Add Assets + audio-package
+    - Add Ui with Logic
+
+  - QuizApp (15/10/2023)
+    - Add Assets
+
+
+    

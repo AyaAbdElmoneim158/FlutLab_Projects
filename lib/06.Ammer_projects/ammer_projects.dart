@@ -5,10 +5,15 @@ class AmmerProjects extends StatelessWidget {
   const AmmerProjects({super.key});
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
-      title: 'Ammer Projects',
-      debugShowCheckedModeBanner: false,
-      home: GameApp(),
-    );
+    return MaterialApp(
+        title: 'Ammer Projects',
+        debugShowCheckedModeBanner: false,
+        home: Scaffold(
+          appBar: AppBar(
+            title: const Text("Run app"),
+          ),
+        )
+        //GameApp(),
+        );
   }
 } // repository
