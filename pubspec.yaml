@@ -17,8 +17,8 @@ dependencies:
   equatable: ^2.0.3
   # flutter_icons: ^1.1.0
   #Firebase
-  # cloud_firestore: ^3.1.10
-  # firebase_storage: ^10.2.9
+  cloud_firestore: ^3.1.10
+  firebase_storage: ^10.2.9
   # firebase_auth: ^3.3.11
   # firebase_core: ^1.13.1
   #Service Locator
@@ -40,6 +40,7 @@ dependencies:
   # Use with the CupertinoIcons class for iOS style icons.
   cupertino_icons: ^1.0.2
   toast: ^0.3.0
+  audioplayers: ^0.18.2
 
 dev_dependencies:
   flutter_test:
@@ -55,7 +56,13 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
+<<<<<<< HEAD
     # - assets/EcommerceAppTarek/
+=======
+    - assets/EcommerceAppTarek/
+    - assets/gameImages/
+    - assets/musicAudio/
+>>>>>>> f24d6b77eaabae91b8f41f6acecb583dcd73670a
 
   
   fonts:
