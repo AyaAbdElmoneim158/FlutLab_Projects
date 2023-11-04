@@ -54,20 +54,17 @@ flutter_icons:
 
 flutter:
   uses-material-design: true
-  assets:
-    - assets/
-<<<<<<< HEAD
+  # assets:
+    # - assets/
     # - assets/EcommerceAppTarek/
-=======
-    - assets/EcommerceAppTarek/
-    - assets/gameImages/
-    - assets/musicAudio/
->>>>>>> f24d6b77eaabae91b8f41f6acecb583dcd73670a
+    # - assets/EcommerceAppTarek/
+    # - assets/gameImages/
+    # - assets/musicAudio/
 
   
-  fonts:
-    - family: Cairo
-      fonts:
-        - asset: assets/Cairo-Regular.ttf
+  # fonts:
+    # - family: Cairo
+      # fonts:
+        # - asset: assets/Cairo-Regular.ttf
 
  
