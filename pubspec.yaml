@@ -55,7 +55,7 @@ flutter:
   uses-material-design: true
   assets:
     - assets/
-    - assets/EcommerceAppTarek/
+    # - assets/EcommerceAppTarek/
 
   
   fonts:
