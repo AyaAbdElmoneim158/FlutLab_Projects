@@ -15,6 +15,7 @@
     <b>🔗Add App Theme<br>
      <ol>
         🔹Add Utility files
+        🔹Add Providers (Theme, Main)
 
 
 </ol>
