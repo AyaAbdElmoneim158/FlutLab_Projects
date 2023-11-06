@@ -16,6 +16,8 @@
      <ol>
         🔹Add Utility files
         🔹Add Providers (Theme, Main)
+        🔹Add Custom widget (appBar, Navigation, pageView)
+        🔹Use mainScreen at main
 
 
 </ol>
