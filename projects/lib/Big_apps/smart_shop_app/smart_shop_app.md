@@ -11,4 +11,5 @@
 
 <ol>
     <b>🔗Add readme + MaterialApp
+    <b>🔗Add Assets
 </ol>
