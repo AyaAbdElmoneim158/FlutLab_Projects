@@ -11,6 +11,7 @@
 
 <ol>
     <b>🔗Add readme + MaterialApp<br>
+    <b>🔗Add Firebase + Packages<br>
     <b>🔗Add Assets<br>
     <b>🔗Add App Theme<br>
      <ol>

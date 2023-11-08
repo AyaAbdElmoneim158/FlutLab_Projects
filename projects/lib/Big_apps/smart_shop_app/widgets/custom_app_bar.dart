@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:projects/Big_apps/smart_shop_app/providers/theme_provider.dart';
-import 'package:projects/Big_apps/smart_shop_app/utils/consts/app_asset.dart';
-import 'package:projects/Big_apps/smart_shop_app/utils/consts/app_color.dart';
 import 'package:projects/Big_apps/smart_shop_app/utils/consts/app_string.dart';
 import 'package:provider/provider.dart';
 
