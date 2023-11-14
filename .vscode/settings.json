@@ -4,6 +4,7 @@
         "consts",
         "firestore",
         "Flut",
+        "fluttertoast",
         "iconly",
         "ionicons",
         "prefs",
