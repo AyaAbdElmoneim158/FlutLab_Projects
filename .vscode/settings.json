@@ -5,6 +5,7 @@
         "firestore",
         "Flut",
         "fluttertoast",
+        "geolocator",
         "iconly",
         "ionicons",
         "prefs",

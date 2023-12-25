@@ -11,18 +11,19 @@ class StoreApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'StoreApp',
+      title: 'Weather App',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
+        fontFamily: "metropolis",
       ),
       home: Scaffold(
         body: Center(
           child: Flexible(
             flex:
-                2, //assets/user_images/bag/shopping_cart.png assets/user_images/warning.png
-            child: Image.asset("assets/user_images/bag/shopping_cart.png"),
+                2, 
+            child: Image.asset("assets/images/1.png"),
           ),
         ),
       ),
